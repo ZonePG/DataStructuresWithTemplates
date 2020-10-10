@@ -31,6 +31,8 @@ template <typename T>
 T Queue<T>::deQueue() {
     T* t = this->front();
     T tt = *t;
+
+    std::cout << "change " << std::endl;
     this->pop_front();
     return tt;
 }

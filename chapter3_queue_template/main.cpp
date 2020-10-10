@@ -8,6 +8,7 @@ int main() {
         int l = rand() % 23;
         queue.push(&l);
     }
+    printf("");
     std::cout << "Front: " << queue.front2() << " Back: " << *queue.back() << std::endl;
     queue.pop();
     std::cout << "After pop Front: " << queue.front2() << " Back: " << *queue.back() << " Size: " << queue.size() << std::endl;

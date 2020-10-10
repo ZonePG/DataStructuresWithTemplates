@@ -5,6 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(queue_test main.cpp)
+add_executable()
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
